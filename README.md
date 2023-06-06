@@ -42,15 +42,16 @@ The Dependency Inversion Principle suggests that high-level modules should not d
 Example: The `BreedListComponent` depends on the `BreedService` abstraction rather than a specific implementation. This allows different implementations of the `BreedService` to be easily swapped without affecting the `BreedListComponent` or other high-level modules.
 
 ## Installation and Usage
-1. Open folder dog-breed-app.
-2. Move to the right directory dog-breed-back.
+1. Open folder dog-breed-app-backend and dog-breed-app-front in 2 different windows/terminals.
+2. Go to the dog-breed-backend terminal and check that you are in the right directory (dog-breed-app-backend).
 3. Install the node packages for the backend: `npm install`
 4. Start the API server: `npm run start`
-5. Open a new terminal and cd to dog-breed-app-front.
+5. Open the dog-breed-app-front terminal and make sure to be in the right terminal (dog-breed-app-front).
 6. Install node packages: `npm install`
-7. Start the Angular app: `npm start`
-8. Check that the address open for the application is `http://localhost:4200` otherwise there will be a CORS policy error.
-9. Access the application in your browser at `http://localhost:4200`
+7. Wait for it to install and ignore the vulnerabilities. 
+8. Start the Angular app: `npm start`
+9. Check that the address open for the application is `http://localhost:4200` otherwise there will be a CORS policy error.
+10. Access the application in your browser at `http://localhost:4200`
 
 ## Credits
 The dog breed data used in this application is obtained from reputable sources and curated for educational purposes.
