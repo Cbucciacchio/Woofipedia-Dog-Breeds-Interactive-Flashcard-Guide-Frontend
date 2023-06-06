@@ -17,7 +17,7 @@
   border-radius: 15px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);  /* Box shadow */
   background-color: #f5ebe0;  
-  padding: 20px;  /
+  padding: 20px;  
   animation: fadeIn 0.5s ease-in-out;  /* Fade in animation */
   position: relative; 
   overflow: hidden; 
@@ -103,7 +103,7 @@
   cursor: pointer; 
   padding: 8px;  
   font-size: 24px;  
-  transition-duration: 0.4s;  /
+  transition-duration: 0.4s;  
 }
 
 /* Styles for the hover effect on the swipe buttons */
