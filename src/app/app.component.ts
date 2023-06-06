@@ -7,18 +7,18 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  breedData: any[] = []; // Array to store breed data
+  breedData: any[] = []; // Array to store dog breed data
   currentBreedIndex: number = 0; // Index of the current breed being displayed
-  showGrowth: boolean = false; // Flag to determine if growth stages are shown
+  showGrowth: boolean = false; // Flag/sign to determine if growth stages are shown
   currentGrowthIndex: number = 0; // Index of the current growth stage being displayed
 
-  growthImageCount: number = 3; // Number of growth images per breed
+  growthImageCount: number = 3; // Number of growth images per dog breed
   growthImageDuration: number = 2500; // Duration to display each growth image
 
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    // Fetch breed data from the API
+    // Fetch dog breed data from the API
     this.http.get<any[]>('http://localhost:3000/breed').subscribe((data) => {
       this.breedData = data;
 
@@ -31,19 +31,19 @@ export class AppComponent implements OnInit {
     });
   }
 
-  // Get the current breed based on the currentBreedIndex
+  // Get the current dog breed based on the currentBreedIndex
   get currentBreed() {
     return this.breedData[this.currentBreedIndex];
   }
 
-  // Function to swipe to the previous breed
+  // Function to swipe to the previous dog breed
   swipeLeft() {
     if (this.currentBreedIndex > 0) {
       this.currentBreedIndex--;
     }
   }
 
-  // Function to swipe to the next breed
+  // Function to swipe to the next dog breed
   swipeRight() {
     if (this.currentBreedIndex < this.breedData.length - 1) {
       this.currentBreedIndex++;
