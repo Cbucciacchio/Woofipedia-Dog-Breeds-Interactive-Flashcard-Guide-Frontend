@@ -43,10 +43,10 @@ Example: The `BreedListComponent` depends on the `BreedService` abstraction rath
 
 ## Installation and Usage
 1. Open folder dog-breed-app-backend and dog-breed-app-front in 2 different windows/terminals.
-2. Go to the dog-breed-backend terminal and check that you are in the right directory (dog-breed-app-backend).
+2. Go to the dog-breed-backend terminal and check that you are in the right directory (dog-breed-app-backend-main).
 3. Install the node packages for the backend: `npm install`
 4. Start the API server: `npm run start`
-5. Open the dog-breed-app-front terminal and make sure to be in the right terminal (dog-breed-app-front).
+5. Open the dog-breed-app-front terminal and make sure to be in the right terminal (dog-breed-app-front-main).
 6. Install node packages: `npm install`
 7. Wait for it to install and ignore the vulnerabilities. 
 8. Start the Angular app: `npm start`
