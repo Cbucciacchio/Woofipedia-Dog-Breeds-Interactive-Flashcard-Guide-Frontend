@@ -43,12 +43,14 @@ Example: The `BreedListComponent` depends on the `BreedService` abstraction rath
 
 ## Installation and Usage
 1. Open folder dog-breed-app.
-2. Move to the right directory dog-breed-backend.
-3. Start the API server: `npm run start`
-4. Open a new terminal and cd to dog-breed-app.
-5. Start the Angular app: `npm start`
-6. Check that the address open for the application is `http://localhost:4200` otherwise there will be a CORS policy error.
-7. Access the application in your browser at `http://localhost:4200`
+2. Move to the right directory dog-breed-back.
+3. Install the node packages for the backend: `npm install`
+4. Start the API server: `npm run start`
+5. Open a new terminal and cd to dog-breed-app-front.
+6. Install node packages: `npm install`
+7. Start the Angular app: `npm start`
+8. Check that the address open for the application is `http://localhost:4200` otherwise there will be a CORS policy error.
+9. Access the application in your browser at `http://localhost:4200`
 
 ## Credits
 The dog breed data used in this application is obtained from reputable sources and curated for educational purposes.
