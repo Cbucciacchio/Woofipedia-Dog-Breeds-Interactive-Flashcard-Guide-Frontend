@@ -1,159 +1,159 @@
 /* Styles for the container */
 .container {
-  display: flex;  /* Displays flex items */
-  justify-content: center;  /* Horizontally centers the items */
-  align-items: center;  /* Vertically centers the items */
-  height: 100vh;  /* Sets the height to 100% of the viewport height */
-  background-color: #d6ccc2;  /* Sets the background color */
+  display: flex;  
+  justify-content: center;  
+  align-items: center; 
+  height: 100vh;  
+  background-color: #d6ccc2;  
 }
 
-/* Styles for the card */
+/* Styles for the card, beige theme with rounded corners*/
 .card {
-  width: 90%;  /* Sets the width of the card */
-  max-width: 600px;  /* Sets the maximum width of the card */
-  display: flex;  /* Displays flex items */
-  flex-direction: column;  /* Sets the flex direction to column */
-  align-items: center;  /* Centers the items horizontally */
-  border-radius: 15px;  /* Sets the border radius */
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);  /* Sets the box shadow */
-  background-color: #f5ebe0;  /* Sets the background color */
-  padding: 20px;  /* Adds padding */
-  animation: fadeIn 0.5s ease-in-out;  /* Applies the fadeIn animation */
-  position: relative;  /* Sets the position to relative */
-  overflow: hidden;  /* Hides overflowing content */
+  width: 90%;  
+  max-width: 600px;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center; 
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);  /* Box shadow */
+  background-color: #f5ebe0;  
+  padding: 20px;  /
+  animation: fadeIn 0.5s ease-in-out;  /* Fade in animation */
+  position: relative; 
+  overflow: hidden; 
 }
 
 /* Styles for the card image */
 .card img {
-  width: 100%;  /* Sets the width to 100% */
-  height: auto;  /* Sets the height to auto */
-  object-fit: cover;  /* Preserves the aspect ratio and covers the container */
-  border-radius: 10px;  /* Sets the border radius */
+  width: 100%;  
+  height: auto;  
+  object-fit: cover; 
+  border-radius: 10px;
 }
 
 /* Styles for the card content */
 .card-content {
-  width: 100%;  /* Sets the width to 100% */
-  display: flex;  /* Displays flex items */
-  flex-direction: column;  /* Sets the flex direction to column */
-  align-items: center;  /* Centers the items horizontally */
-  padding: 20px;  /* Adds padding */
+  width: 100%;  
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px;
 }
 
 /* Styles for the breed name */
 .breed-name {
-  font-size: 28px;  /* Sets the font size */
-  font-weight: bold;  /* Sets the font weight to bold */
-  margin-bottom: 8px;  /* Adds margin at the bottom */
-  color: #4d4d4d;  /* Sets the text color */
+  font-size: 28px;
+  font-weight: bold; 
+  margin-bottom: 8px; 
+  color: #4d4d4d;
 }
 
 /* Styles for the description */
 .description {
-  text-align: center;  /* Aligns the text to the center */
-  font-size: 18px;  /* Sets the font size */
-  color: #4d4d4d;  /* Sets the text color */
+  text-align: center; 
+  font-size: 18px; 
+  color: #4d4d4d; 
 }
 
 /* Styles for the toggle growth button */
 .toggle-growth-button {
-  background-color: #ffff;  /* Sets the background color */
-  color: #4d4d4d;  /* Sets the text color */
-  border: 0px solid #4d4d4d;  /* Sets the border */
+  background-color: #ffff; 
+  color: #4d4d4d;
+  border: 0px solid #4d4d4d;
 
-  padding: 10px 20px;  /* Adds padding */
-  text-align: center;  /* Aligns the text to the center */
-  text-decoration: none;  /* Removes the text decoration */
-  display: inline-block;  /* Displays as an inline-block element */
-  font-size: 16px;  /* Sets the font size */
-  font-weight: bold;  /* Sets the font weight to bold */
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);  /* Adds a transition effect */
-  cursor: pointer;  /* Sets the cursor to a pointer */
-  border-radius: 12px;  /* Sets the border radius */
-  margin-bottom: 20px;  /* Adds margin at the bottom */
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none;  
+  display: inline-block;  
+  font-size: 16px; 
+  font-weight: bold;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
+  cursor: pointer;  
+  border-radius: 12px; 
+  margin-bottom: 20px;  
 }
 
 /* Styles for the hover effect on the toggle growth button */
 .toggle-growth-button:hover {
-  background-color: #d5bdaf;  /* Sets the background color on hover */
-  color: #4d4d4d;  /* Sets the text color on hover */
-  transform: translateY(-1px);  /* Translates the button up by 1px */
-  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);  /* Adds a box shadow */
+  background-color: #d5bdaf;  
+  color: #4d4d4d;  
+  transform: translateY(-1px); 
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);  /* Box shadow */
 }
 
 /* Styles for the active state of the toggle growth button */
 .toggle-growth-button:active {
-  transform: translateY(1px);  /* Translates the button down by 1px */
+  transform: translateY(1px); 
 }
 
 /* Styles for the swipe button container */
 .swipe-button-container {
-  display: flex;  /* Displays flex items */
-  align-items: center;  /* Centers the items vertically */
-  justify-content: space-between;  /* Distributes the space evenly between items */
-  padding: 20px;  /* Adds padding */
-  margin-bottom: 20px;  /* Adds margin at the bottom */
+  display: flex;  
+  align-items: center;  
+  justify-content: space-between;  
+  padding: 20px;  
+  margin-bottom: 20px;  
 }
 
-/* Styles for the swipe buttons */
+/* Styles for the swipe buttons, transparent with arrow heads */
 .swipe-button {
-  color: #4d4d4d;  /* Sets the text color */
-  background-color: transparent;  /* Sets the background color to transparent */
-  border: none;  /* Removes the border */
-  cursor: pointer;  /* Sets the cursor to a pointer */
-  padding: 8px;  /* Adds padding */
-  font-size: 24px;  /* Sets the font size */
-  transition-duration: 0.4s;  /* Sets the transition duration */
+  color: #4d4d4d; 
+  background-color: transparent;  
+  border: none; 
+  cursor: pointer; 
+  padding: 8px;  
+  font-size: 24px;  
+  transition-duration: 0.4s;  /
 }
 
 /* Styles for the hover effect on the swipe buttons */
 .swipe-button:hover {
-  background-color: #e3d5ca;  /* Sets the background color on hover */
-  color: #4d4d4d;  /* Sets the text color on hover */
+  background-color: #e3d5ca;  
+  color: #4d4d4d;  
 }
 
 /* Styles for the growth stage container */
 .growth-stage-container {
-  display: flex;  /* Displays flex items */
-  justify-content: center;  /* Centers the items horizontally */
-  align-items: center;  /* Centers the items vertically */
-  width: 100%;  /* Sets the width to 100% */
-  overflow-x: auto;  /* Enables horizontal scrolling */
-  scroll-snap-type: x mandatory;  /* Applies scroll snapping */
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  width: 100%;  
+  overflow-x: auto;  
+  scroll-snap-type: x mandatory; 
 }
 
-/* Styles for the scrollbar in the growth stage container */
+/* Styles for hiding the scrollbar in the growth stage container */
 .growth-stage-container::-webkit-scrollbar {
-  display: none;  /* Hides the scrollbar */
+  display: none; 
 }
 
 /* Styles for the growth stage image */
 .growth-stage-image {
-  width: auto;  /* Sets the width to auto */
-  height: 100%;  /* Sets the height to 100% */
-  object-fit: cover;  /* Preserves the aspect ratio and covers the container */
-  scroll-snap-align: center;  /* Snaps the image to the center */
+  width: auto;  
+  height: 100%; 
+  object-fit: cover;  
+  scroll-snap-align: center;  
 }
 
 /* Animation keyframes for the fade-in effect */
 @keyframes fadeIn {
   0% {
-    opacity: 0;  /* Sets the opacity to 0 */
-    transform: scale(0.9);  /* Scales the element to 0.9 of its original size */
+    opacity: 0;  
+    transform: scale(0.9);  
   }
   100% {
-    opacity: 1;  /* Sets the opacity to 1 */
-    transform: scale(1);  /* Scales the element to its original size */
+    opacity: 1;  
+    transform: scale(1);  
   }
 }
 
 /* Styles for the image container */
 .img-container {
-  display: flex;  /* Displays flex items */
-  justify-content: center;  /* Centers the items horizontally */
-  align-items: center;  /* Centers the items vertically */
-  width: 100%;  /* Sets the width to 100% */
-  height: 400px;  /* Sets the height to 400px */
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  width: 100%;  
+  height: 400px;  
 }
 
 
