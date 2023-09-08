@@ -1,5 +1,5 @@
 # Woofipedia: Dog Breeds Interactive Flashcard Guide Frontend
-Link to backend: https://github.com/Cbucciacchio/Woofipedia-Dog-Breeds-Interactive-Flashcard-Guide-Backend
+Link to backend: https://github.com/Cbucciacchio/Woofipedia-Dog-Breeds-Interactive-Flashcard-Guide-Backend-
 ## Overview
 This application is an Angular app that displays different dog breeds and their short biographies. It leverages the NestJS API I created to retrieve the dog breed data. The app emphasizes SOLID principles for code organization and maintainability.
 
